@@ -27,7 +27,7 @@ const DEFAULT_CONFIG = {
     maxStickerDuration: 10,
     enablePing: true,
     enableUptime: true,
-    botName: "WA-AKG Bot",
+    botName: "Pegawat Bot",
     prefix: "#",
     removeBgApiKey: null as string | null
 };
@@ -305,8 +305,8 @@ export async function handleBotCommand(
 
                     // Convert
                     const sticker = new Sticker(buffer as Buffer, {
-                        pack: (config as any).botName || "WA-AKG Bot",
-                        author: "By " + ((config as any).botName || "WA-AKG Bot"),
+                        pack: (config as any).botName || "Pegawat Bot",
+                        author: "By " + ((config as any).botName || "Pegawat Bot"),
                         type: "full", // full, crop, circle
                         quality: 15 // Extreme quality reduction for size
                     });
@@ -326,7 +326,7 @@ export async function handleBotCommand(
 
             case "menu":
             case "help": {
-                const botName = (config as any).botName || "WA-AKG Bot";
+                const botName = (config as any).botName || "Pegawat Bot";
                 const menu = `
 🤖 *${botName} Menu* 🤖
 

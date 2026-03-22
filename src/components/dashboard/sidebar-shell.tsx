@@ -39,7 +39,7 @@ export function SidebarShell({ appName, userName, userEmail, version }: SidebarS
                         <h1 className="text-xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-primary to-blue-500">
                             {appName}
                         </h1>
-                        <p className="text-[10px] text-muted-foreground mt-0.5 font-medium">WhatsApp Gateway</p>
+                        <p className="text-[10px] text-muted-foreground mt-0.5 font-medium">WhatsApp Automation Suite</p>
                     </>
                 )}
             </div>
