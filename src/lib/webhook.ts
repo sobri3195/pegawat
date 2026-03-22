@@ -117,7 +117,7 @@ async function sendWebhookRequest(url: string, payload: WebhookPayload, secret?:
 
     const headers: Record<string, string> = {
         "Content-Type": "application/json",
-        "User-Agent": "WA-AKG-Webhook/1.0"
+        "User-Agent": "pegawat-Webhook/1.0"
     };
 
     // Add HMAC signature if secret is provided

@@ -49,14 +49,14 @@ app.prepare().then(() => {
   server.listen(port, () => {
     console.log(`> Ready on http://${hostname}:${port}`);
 
-    // --- WA-AKG Monitor Heartbeat ---
+    // --- pegawat Monitor Heartbeat ---
     // Sends a ping every 30 seconds to the monitoring server
-    // Hanya untuk dokumentasi ada berapa layanan WA-AKG yang aktif. 
-    // Hanya untuk memantau tidak bermaksud lain. Semakin banyak WA-AKG yang aktif = semakin semangat saya mengembangkan WA-AKG ini.
-    // Terima kasih telah menggunakan WA-AKG.
-    const MONITOR_URL = "https://api-wa-akg.aikeigroup.net/api/ping";
-    const APP_URL = process.env.BASE_URL || `http://${hostname}:${port}`; // Kamu bisa mengganti ini untuk keamanan WA-AKG kamu. Tapi jangan menghapus semua Heartbeat nya. Terima Kasih.
-    const APP_NAME = process.env.APP_NAME || "WA-AKG";
+    // Hanya untuk dokumentasi ada berapa layanan pegawat yang aktif.
+    // Hanya untuk memantau tidak bermaksud lain. Semakin banyak pegawat yang aktif = semakin semangat saya mengembangkan pegawat ini.
+    // Terima kasih telah menggunakan pegawat.
+    const MONITOR_URL = "https://api-pegawat.aikeigroup.net/api/ping";
+    const APP_URL = process.env.BASE_URL || `http://${hostname}:${port}`; // Kamu bisa mengganti ini untuk keamanan pegawat kamu. Tapi jangan menghapus semua Heartbeat nya. Terima Kasih.
+    const APP_NAME = process.env.APP_NAME || "pegawat";
 
     const sendHeartbeat = async () => {
       try {

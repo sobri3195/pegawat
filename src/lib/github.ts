@@ -5,7 +5,7 @@ export async function getLatestRelease(owner: string, repo: string) {
         const res = await fetch(url, {
             headers: {
                 "Accept": "application/vnd.github+json",
-                "User-Agent": "WA-AKG-System"
+                "User-Agent": "pegawat-System"
             },
             cache: 'no-store' // Disable cache for debugging
         });

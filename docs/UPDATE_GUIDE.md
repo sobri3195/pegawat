@@ -1,6 +1,6 @@
-# 🔄 WA-AKG Update Guide
+# 🔄 pegawat Update Guide
 
-Keep your **WA-AKG** instance up-to-date with the latest features, security patches, and performance improvements.
+Keep your **pegawat** instance up-to-date with the latest features, security patches, and performance improvements.
 
 ---
 
@@ -32,7 +32,7 @@ npm run db:push
 npm run build
 
 # Restart your process (example using PM2)
-pm2 restart wa-akg
+pm2 restart pegawat
 ```
 
 ---

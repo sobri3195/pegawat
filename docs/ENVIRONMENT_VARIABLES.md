@@ -1,6 +1,6 @@
 # 🔐 Environment Variables Guide
 
-This document provides a comprehensive reference for all configuration options in **WA-AKG**.
+This document provides a comprehensive reference for all configuration options in **pegawat**.
 
 > [!WARNING]
 > Never commit your `.env` file to version control (Git). It contains sensitive credentials that could compromise your system.
@@ -77,7 +77,7 @@ Controls the verbosity of the WhatsApp engine logs.
 ## 📝 Example Configuration (Production)
 ```env
 NODE_ENV="production"
-DATABASE_URL="mysql://user:pass@db-host:3306/wa_akg"
+DATABASE_URL="mysql://user:pass@db-host:3306/pegawat"
 AUTH_SECRET="your-generated-secret"
 NEXTAUTH_URL="https://wa.api.com"
 BAILEYS_LOG_LEVEL="error"
