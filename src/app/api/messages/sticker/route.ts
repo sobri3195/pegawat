@@ -40,7 +40,7 @@ export async function POST(request: NextRequest) {
 
         // Create Sticker
         const sticker = new Sticker(buffer, {
-            pack: "WA-AKG",
+            pack: "Pegawat",
             author: user.name || "User",
             type: "full",
             categories: ["🤩", "🎉"] as any,

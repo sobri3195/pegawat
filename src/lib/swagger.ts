@@ -7,12 +7,12 @@ export const getApiDocs = () => {
         definition: {
             openapi: "3.0.0",
             info: {
-                title: "WA-AKG API Documentation",
+                title: "Pegawat API Documentation",
                 version: "1.2.0",
                 description: `
 # WhatsApp AI Gateway - Complete API Reference
 
-Professional WhatsApp Gateway with **64 API endpoints** for complete WhatsApp automation.
+Professional Pegawat WhatsApp Gateway with comprehensive API endpoints for complete WhatsApp automation.
 
 ## 🔐 Authentication
 All endpoints require authentication via:

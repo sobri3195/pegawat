@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "WA-AKG | Premium WhatsApp Management",
-  description: "Next-generation WhatsApp Gateway & Management Dashboard",
+  title: "Pegawat | WhatsApp Gateway Dashboard",
+  description: "Pegawat adalah dashboard WhatsApp Gateway modern dengan otomasi, API, dan multi-session management.",
   robots: {
     index: process.env.NEXT_PUBLIC_ALLOW_INDEXING === "true",
     follow: process.env.NEXT_PUBLIC_ALLOW_INDEXING === "true",

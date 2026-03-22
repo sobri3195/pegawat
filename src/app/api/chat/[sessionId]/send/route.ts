@@ -51,8 +51,8 @@ export async function POST(
                 const buffer = await res.arrayBuffer();
                 
                 const sticker = new Sticker(Buffer.from(buffer), {
-                    pack: msgPayload.sticker.pack || "WA-AKG Bot",
-                    author: msgPayload.sticker.author || "WA-AKG",
+                    pack: msgPayload.sticker.pack || "Pegawat Bot",
+                    author: msgPayload.sticker.author || "Pegawat",
                     type: "full",
                     quality: 50
                 });
