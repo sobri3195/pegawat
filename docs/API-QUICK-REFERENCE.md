@@ -1,6 +1,6 @@
 # API Quick Reference
 
-Quick reference guide for common API operations in WA-AKG.
+Quick reference guide for common API operations in pegawat.
 
 ## Base URL
 

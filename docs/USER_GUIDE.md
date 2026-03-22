@@ -1,6 +1,6 @@
-# 📖 WA-AKG User Manual
+# 📖 pegawat User Manual
 
-Welcome to the **WA-AKG** User Guide. This document provides step-by-step instructions on how to use the dashboard features effectively.
+Welcome to the **pegawat** User Guide. This document provides step-by-step instructions on how to use the dashboard features effectively.
 
 ---
 
@@ -77,5 +77,5 @@ Check the **Settings** page to customize:
 
 ---
 <div align="center">
-  **Version**: 1.1.2 | **Support**: [GitHub Issues](https://github.com/mrifqidaffaaditya/WA-AKG/issues)
+  **Version**: 1.1.2 | **Support**: [GitHub Issues](https://github.com/mrifqidaffaaditya/pegawat/issues)
 </div>

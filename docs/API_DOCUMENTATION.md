@@ -1,4 +1,4 @@
-# WA-AKG API Documentation
+# pegawat API Documentation
 
 # WhatsApp AI Gateway — Complete API Reference
 
@@ -127,11 +127,11 @@ Get all sessions accessible to the authenticated user (role-based filtering)
     "status": "Connected",
     "userId": "string",
     "botConfig": {
-      "text": "Hello from WA-AKG!"
+      "text": "Hello from pegawat!"
     },
     "webhooks": [
       {
-        "text": "Hello from WA-AKG!"
+        "text": "Hello from pegawat!"
       }
     ],
     "_count": {
@@ -218,11 +218,11 @@ Content-Type: application/json
   "status": "Connected",
   "userId": "string",
   "botConfig": {
-    "text": "Hello from WA-AKG!"
+    "text": "Hello from pegawat!"
   },
   "webhooks": [
     {
-      "text": "Hello from WA-AKG!"
+      "text": "Hello from pegawat!"
     }
   ],
   "_count": {
@@ -481,11 +481,11 @@ Get detailed information about a specific session including uptime and status
   "status": "Connected",
   "userId": "string",
   "botConfig": {
-    "text": "Hello from WA-AKG!"
+    "text": "Hello from pegawat!"
   },
   "webhooks": [
     {
-      "text": "Hello from WA-AKG!"
+      "text": "Hello from pegawat!"
     }
   ],
   "_count": {
@@ -501,7 +501,7 @@ Get detailed information about a specific session including uptime and status
   "messageCount": 0,
   "hasInstance": true,
   "me": {
-    "text": "Hello from WA-AKG!"
+    "text": "Hello from pegawat!"
   }
 }
 ```
@@ -551,7 +551,7 @@ Start, stop, restart, or logout a session
   "status": true,
   "message": "Operation successful",
   "data": {
-    "text": "Hello from WA-AKG!"
+    "text": "Hello from pegawat!"
   }
 }
 ```
@@ -649,7 +649,7 @@ Permanently deletes session and logs out from WhatsApp
   "status": true,
   "message": "Operation successful",
   "data": {
-    "text": "Hello from WA-AKG!"
+    "text": "Hello from pegawat!"
   }
 }
 ```
@@ -889,7 +889,7 @@ Content-Type: application/json
   "sessionId": "sales-01",
   "jid": "628123456789@s.whatsapp.net",
   "message": {
-    "text": "Hello from WA-AKG!"
+    "text": "Hello from pegawat!"
   },
   "mentions": [
     "628123456789@s.whatsapp.net"
@@ -919,7 +919,7 @@ Content-Type: application/json
   "status": true,
   "message": "Operation successful",
   "data": {
-    "text": "Hello from WA-AKG!"
+    "text": "Hello from pegawat!"
   }
 }
 ```
@@ -930,7 +930,7 @@ Content-Type: application/json
 curl -X POST "http://localhost:3000/api/chat/send" \
   -H "X-API-Key: your-api-key" \
   -H "Content-Type: application/json" \
-  -d '{"sessionId":"sales-01","jid":"628123456789@s.whatsapp.net","message":{"text":"Hello from WA-AKG!"},"mentions":["628123456789@s.whatsapp.net"]}'
+  -d '{"sessionId":"sales-01","jid":"628123456789@s.whatsapp.net","message":{"text":"Hello from pegawat!"},"mentions":["628123456789@s.whatsapp.net"]}'
 ```
 
 ---
@@ -967,7 +967,7 @@ Content-Type: application/json
 {
   "jid": "string",
   "message": {
-    "text": "Hello from WA-AKG!"
+    "text": "Hello from pegawat!"
   }
 }
 ```
@@ -984,7 +984,7 @@ Content-Type: application/json
 curl -X POST "http://localhost:3000/api/chat/session-01/send" \
   -H "X-API-Key: your-api-key" \
   -H "Content-Type: application/json" \
-  -d '{"jid":"string","message":{"text":"Hello from WA-AKG!"}}'
+  -d '{"jid":"string","message":{"text":"Hello from pegawat!"}}'
 ```
 
 ---
@@ -1023,7 +1023,7 @@ Content-Type: application/json
 ```json
 {
   "message": {
-    "text": "Hello from WA-AKG!"
+    "text": "Hello from pegawat!"
   },
   "mentions": [
     "628123456789@s.whatsapp.net"
@@ -1058,7 +1058,7 @@ Content-Type: application/json
   "status": true,
   "message": "Operation successful",
   "data": {
-    "text": "Hello from WA-AKG!"
+    "text": "Hello from pegawat!"
   }
 }
 ```
@@ -1069,7 +1069,7 @@ Content-Type: application/json
 curl -X POST "http://localhost:3000/api/messages/sales-01/628123456789@s.whatsapp.net/send" \
   -H "X-API-Key: your-api-key" \
   -H "Content-Type: application/json" \
-  -d '{"message":{"text":"Hello from WA-AKG!"},"mentions":["628123456789@s.whatsapp.net"]}'
+  -d '{"message":{"text":"Hello from pegawat!"},"mentions":["628123456789@s.whatsapp.net"]}'
 ```
 
 ---
@@ -1138,7 +1138,7 @@ Content-Type: application/json
   "status": true,
   "message": "Operation successful",
   "data": {
-    "text": "Hello from WA-AKG!"
+    "text": "Hello from pegawat!"
   }
 }
 ```
@@ -1448,7 +1448,7 @@ Content-Type: application/json
   "status": true,
   "message": "Operation successful",
   "data": {
-    "text": "Hello from WA-AKG!"
+    "text": "Hello from pegawat!"
   }
 }
 ```
@@ -1602,7 +1602,7 @@ Content-Type: application/json
   "status": true,
   "message": "Operation successful",
   "data": {
-    "text": "Hello from WA-AKG!"
+    "text": "Hello from pegawat!"
   }
 }
 ```
@@ -1754,7 +1754,7 @@ Content-Type: application/json
   "status": true,
   "message": "Operation successful",
   "data": {
-    "text": "Hello from WA-AKG!"
+    "text": "Hello from pegawat!"
   }
 }
 ```
@@ -2052,7 +2052,7 @@ Content-Type: application/json
   "status": true,
   "message": "Operation successful",
   "data": {
-    "text": "Hello from WA-AKG!"
+    "text": "Hello from pegawat!"
   }
 }
 ```
@@ -2429,7 +2429,7 @@ Content-Type: application/json
   "status": true,
   "message": "Operation successful",
   "data": {
-    "text": "Hello from WA-AKG!"
+    "text": "Hello from pegawat!"
   }
 }
 ```
@@ -2618,7 +2618,7 @@ Content-Type: application/json
 | Field | Type | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `file` | string (binary) | ✅ Yes | — |
-| `pack` | string | No | Sticker pack name (default: WA-AKG) |
+| `pack` | string | No | Sticker pack name (default: pegawat) |
 | `author` | string | No | Sticker author name (default: User) |
 | `type` | string | No | Sticker crop type (default: full) **Options:** `full`, `crop`, `circle` |
 | `quality` | integer | No | Image quality (default: 50) |
@@ -2728,7 +2728,7 @@ Content-Type: application/json
   "status": true,
   "message": "Operation successful",
   "data": {
-    "text": "Hello from WA-AKG!"
+    "text": "Hello from pegawat!"
   }
 }
 ```
@@ -4382,7 +4382,7 @@ Content-Type: application/json
   "message": "string",
   "result": [
     {
-      "text": "Hello from WA-AKG!"
+      "text": "Hello from pegawat!"
     }
   ]
 }
@@ -5795,7 +5795,7 @@ Fetch profile information of the connected WhatsApp account
   "success": true,
   "jid": "string",
   "status": {
-    "text": "Hello from WA-AKG!"
+    "text": "Hello from pegawat!"
   }
 }
 ```
@@ -5866,7 +5866,7 @@ Content-Type: application/json
   "status": true,
   "message": "Operation successful",
   "data": {
-    "text": "Hello from WA-AKG!"
+    "text": "Hello from pegawat!"
   }
 }
 ```
@@ -5939,7 +5939,7 @@ Content-Type: application/json
   "status": true,
   "message": "Operation successful",
   "data": {
-    "text": "Hello from WA-AKG!"
+    "text": "Hello from pegawat!"
   }
 }
 ```
@@ -6012,7 +6012,7 @@ Content-Type: application/json
   "status": true,
   "message": "Operation successful",
   "data": {
-    "text": "Hello from WA-AKG!"
+    "text": "Hello from pegawat!"
   }
 }
 ```
@@ -6063,7 +6063,7 @@ curl -X PUT "http://localhost:3000/api/profile/session-01/picture" \
   "status": true,
   "message": "Operation successful",
   "data": {
-    "text": "Hello from WA-AKG!"
+    "text": "Hello from pegawat!"
   }
 }
 ```
@@ -6976,7 +6976,7 @@ curl -X POST "http://localhost:3000/api/scheduler" \
   "status": true,
   "message": "Operation successful",
   "data": {
-    "text": "Hello from WA-AKG!"
+    "text": "Hello from pegawat!"
   }
 }
 ```
@@ -7692,7 +7692,7 @@ curl -X POST "http://localhost:3000/api/user/api-key" \
   "status": true,
   "message": "Operation successful",
   "data": {
-    "text": "Hello from WA-AKG!"
+    "text": "Hello from pegawat!"
   }
 }
 ```
@@ -8016,7 +8016,7 @@ curl -X PUT "http://localhost:3000/api/labels/session-01/label_01" \
   "status": true,
   "message": "Operation successful",
   "data": {
-    "text": "Hello from WA-AKG!"
+    "text": "Hello from pegawat!"
   }
 }
 ```
@@ -8357,7 +8357,7 @@ Get all chats associated with a specific label
 {
   "success": true,
   "label": {
-    "text": "Hello from WA-AKG!"
+    "text": "Hello from pegawat!"
   },
   "chats": [
     "string"
@@ -8543,7 +8543,7 @@ Content-Type: application/json
   "status": true,
   "message": "Operation successful",
   "data": {
-    "text": "Hello from WA-AKG!"
+    "text": "Hello from pegawat!"
   }
 }
 ```
@@ -8593,7 +8593,7 @@ curl -X PATCH "http://localhost:3000/api/notifications/read" \
   "status": true,
   "message": "Operation successful",
   "data": {
-    "text": "Hello from WA-AKG!"
+    "text": "Hello from pegawat!"
   }
 }
 ```
@@ -8633,7 +8633,7 @@ curl -X DELETE "http://localhost:3000/api/notifications/delete?id=abc123" \
 ```json
 {
   "id": "default",
-  "appName": "WA-AKG",
+  "appName": "pegawat",
   "logoUrl": "https://example.com/logo.png",
   "timezone": "Asia/Jakarta"
 }
@@ -8790,7 +8790,7 @@ Content-Type: application/json
   "status": true,
   "message": "Operation successful",
   "data": {
-    "text": "Hello from WA-AKG!"
+    "text": "Hello from pegawat!"
   }
 }
 ```
@@ -8873,7 +8873,7 @@ Content-Type: application/json
   "status": true,
   "message": "Operation successful",
   "data": {
-    "text": "Hello from WA-AKG!"
+    "text": "Hello from pegawat!"
   }
 }
 ```
@@ -8965,7 +8965,7 @@ curl -X POST "http://localhost:3000/api/system/check-updates" \
   "status": true,
   "message": "Operation successful",
   "data": {
-    "text": "Hello from WA-AKG!"
+    "text": "Hello from pegawat!"
   }
 }
 ```
@@ -8995,11 +8995,11 @@ curl -X POST "http://localhost:3000/api/system/check-updates" \
   "status": "Connected",
   "userId": "string",
   "botConfig": {
-    "text": "Hello from WA-AKG!"
+    "text": "Hello from pegawat!"
   },
   "webhooks": [
     {
-      "text": "Hello from WA-AKG!"
+      "text": "Hello from pegawat!"
     }
   ],
   "_count": {

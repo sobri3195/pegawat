@@ -1,6 +1,6 @@
 # 🗄️ Database Setup Guide
 
-This guide will help you set up the database for **WA-AKG**. The project uses **Prisma ORM**, which supports PostgreSQL, MySQL, SQLite, and MongoDB.
+This guide will help you set up the database for **pegawat**. The project uses **Prisma ORM**, which supports PostgreSQL, MySQL, SQLite, and MongoDB.
 
 ## 1. Prerequisites
 
@@ -14,12 +14,12 @@ Edit your `.env` file and set the `DATABASE_URL`.
 
 ### MySQL (Recommended)
 ```env
-DATABASE_URL="mysql://user:pass@db-host:3306/wa_akg"
+DATABASE_URL="mysql://user:pass@db-host:3306/pegawat"
 ```
 
 ### PostgreSQL
 ```env
-DATABASE_URL="postgresql://user:pass@db-host:5432/wa_akg?schema=public"
+DATABASE_URL="postgresql://user:pass@db-host:5432/pegawat?schema=public"
 ```
 
 ## 3. Initialization Commands
